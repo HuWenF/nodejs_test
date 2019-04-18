@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
     //console.log(request.rawHeaders)
     console.log(request.headers)
     console.log(request.url)
-    response.end('Hello HWF\n');
+    response.end('Hello HWF V2\n');
 
 }).listen(8888);
 
