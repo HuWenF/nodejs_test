@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
     // 发送响应数据 "Hello World"
     //console.log(request.rawHeaders)
-    console.log(request.headers)
-    console.log(request.url)
+    //console.log(request.headers)
+    //console.log(request.url)
     response.end('Hello HWF V2\n');
 
 }).listen(8888);
